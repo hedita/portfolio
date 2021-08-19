@@ -46,7 +46,6 @@ background-color: #F4F4F4;
 }
 
 .project-list-item {
-  list-style-type: none;
   border: 2px solid #000000;
 }
 
@@ -74,10 +73,12 @@ background-color: #F4F4F4;
 }
 
 .link-list-item {
-  list-style-type: none;
   border: 2px solid #000000;
 }
 
+li {
+  list-style-type: none;
+}
 
 /* Tablets and under */
 @media(max-width: 900px) {
