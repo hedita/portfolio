@@ -47,6 +47,7 @@ background-color: #F4F4F4;
 
 .project-list-item {
   border: 2px solid #000000;
+  flex: 100%;
 }
 
 .feature1 {
@@ -169,8 +170,17 @@ li {
 }
 
 /* Tablets and under */
-@media(max-width: 900px) {
-  .project-list {
-    flex: calc(50%);
+@media(max-width: 900px) and (min-width: 600px) {
+
+  .project-list-item {
+    flex: 50%;
+  }
+}
+
+/* Desktop */
+@media(min-width: 901px) {
+  
+  .project-list-item {
+    flex: 25%;
   }
 }
