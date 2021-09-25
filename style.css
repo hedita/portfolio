@@ -39,15 +39,12 @@ background-color: #F4F4F4;
 }
 
 .project-list {
-  display: flex;
-  flex-direction: column;
   padding: 0;
   gap: 25px;
 }
 
 .project-list-item {
   border: 2px solid #000000;
-  flex: 100%;
 }
 
 .feature1 {
@@ -86,7 +83,7 @@ li {
   border: 1px solid red;
 }
 
-.project-list {
+.project-list-title {
   text-align: center;
   border: 1px solid red;
 }
@@ -169,17 +166,24 @@ li {
   border: 1px solid #000000;
 }
 
-/* Tablets and under */
+/* Tablets */
 @media(max-width: 900px) and (min-width: 600px) {
+  .project-list {
+    display: flex;
+  }
 
   .project-list-item {
     flex: 50%;
-  }
+  } 
 }
 
 /* Desktop */
 @media(min-width: 901px) {
-  
+
+  .project-list {
+    display: flex;
+  }
+
   .project-list-item {
     flex: 25%;
   }
