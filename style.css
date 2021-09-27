@@ -13,7 +13,7 @@ body {
 }
 
 .site-header {
-  background-color: #f2b4f4;
+  background-color: #F2B4F4;
 }
 
 .site-main {
@@ -22,7 +22,7 @@ body {
 
 .site-footer {
   background-color: #072BCE;
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: center;
   flex-shrink: 0;
 }
