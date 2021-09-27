@@ -17,7 +17,7 @@ body {
 }
 
 .site-main {
-background-color: #F4F4F4;
+  background-color: #F4F4F4;
 }
 
 .site-footer {
@@ -144,7 +144,7 @@ li {
 }
 
 .skills {
- border: 2px solid #000000;
+  border: 2px solid #000000;
 }
 
 .skills-item {
@@ -179,7 +179,6 @@ li {
     flex: 50%;
   } 
 }
-
 /* Desktop */
 @media(min-width: 901px) {
 
