@@ -50,18 +50,18 @@ body {
   border: 2px solid #000000;
 }
 
-.feature1 {
+.feature {
   display: flex;
   flex-direction: column;
   border: 2px solid red;
 }
 
-.title-feature1 {
+.title-feature {
   text-align: center;
   border: 2px solid #000000;
 }
 
-.content-feature1 {
+.content-feature {
   text-align: center;
   border: 2px solid #000000;
 }
