@@ -18,10 +18,6 @@ body {
   vertical-align: top;
 }
 
-.site-main {
-  
-}
-
 .site-footer {
   background-color: #072BCE;
   color: #FFFFFF;
@@ -56,8 +52,17 @@ body {
   padding: 50px 50px;
 }
 
+.title-second-section {
+  background-color: red;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 2px 8px 2px 8px;
+  font-weight: bold;
+}
+
 .second-section {
-  border: 4px solid red;
+  text-align: center;
+  background-color: #F4F4F4;
 }
 
 .project-list {
