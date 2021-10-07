@@ -37,6 +37,10 @@ body {
   margin: 0 auto;
 }
 
+.text-header {
+  text-align: center;
+}
+
 .first-section {
   text-align: center;
 }
