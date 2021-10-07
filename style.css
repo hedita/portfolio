@@ -22,7 +22,7 @@ body {
 }
 
 .site-main {
-  background-color: #F4F4F4;
+  
 }
 
 .site-footer {
@@ -38,13 +38,19 @@ body {
 }
 
 .first-section {
-  background-color: #F4F4F4;
+  text-align: center;
 }
 
 .title-first-section {
   background-color: red;
-  text-align: center;
   color: #FFFFFF;
+  display: inline-block;
+  padding: 0 8px 0 8px;
+  font-weight: bold;
+}
+
+.text-first-section {
+  
 }
 
 .second-section {
