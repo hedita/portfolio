@@ -12,10 +12,6 @@ body {
   flex: 1 0 auto;
 }
 
-.site-header {
-  background-color: #F4F4F4;
-}
-
 .header-title {
   text-align: center;
   vertical-align: top;
@@ -53,8 +49,9 @@ body {
   font-weight: bold;
 }
 
-.text-first-section {
-  
+.first-text {
+  background-color: #F4F4F4;
+  padding: 50px 50px;
 }
 
 .second-section {
