@@ -36,27 +36,27 @@ body {
 
 .first-section {
   text-align: center;
-  padding: 50px 50px;
+  padding: 50px;
 }
 
 .title-first-section {
   background-color: red;
   color: #FFFFFF;
   display: inline-block;
-  padding: 0 8px 0 8px;
+  padding: 0 8px;
   font-weight: bold;
 }
 
 .first-text {
   background-color: #F4F4F4;
-  padding: 50px 50px;
+  padding: 50px;
 }
 
 .title-second-section {
   background-color: red;
   color: #FFFFFF;
   display: inline-block;
-  padding: 2px 8px 2px 8px;
+  padding: 2px 8px;
   font-weight: bold;
 }
 
