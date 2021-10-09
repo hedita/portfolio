@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .content {
@@ -19,8 +20,8 @@ body {
 }
 
 .site-footer {
-  background-color: #072BCE;
-  color: #FFFFFF;
+  background-color: #072bce;
+  color: #ffffff;
   text-align: center;
   flex-shrink: 0;
 }
@@ -36,25 +37,24 @@ body {
 
 .first-section {
   text-align: center;
-  padding: 50px;
 }
 
 .title-first-section {
   background-color: red;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   padding: 0 8px;
   font-weight: bold;
 }
 
 .first-text {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   padding: 50px;
 }
 
 .title-second-section {
   background-color: red;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   padding: 2px 8px;
   font-weight: bold;
@@ -62,7 +62,7 @@ body {
 
 .second-section {
   text-align: center;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .project-list {
@@ -195,18 +195,18 @@ li {
 }
 
 /* Tablets */
-@media(max-width: 900px) and (min-width: 600px) {
+@media (max-width: 900px) and (min-width: 600px) {
   .project-list {
     display: flex;
   }
 
   .project-list-item {
     flex: 50%;
-  } 
+  }
 }
 /* Desktop */
-@media(min-width: 901px) {
- .project-list {
+@media (min-width: 901px) {
+  .project-list {
     display: flex;
   }
 
