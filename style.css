@@ -39,20 +39,28 @@ body {
   text-align: center;
 }
 
-.title-first-section {
+.title-second-section {
   background-color: red;
   color: #ffffff;
   display: inline-block;
-  padding: 0 8px;
   font-weight: bold;
+  padding: 12px;
 }
 
 .first-text {
   background-color: #f4f4f4;
-  padding: 50px;
+  padding: 123px 410px 109px 410px;
 }
 
-.title-second-section {
+.text-second-section {
+  padding: 123px 410px 120px 410px;
+}
+
+.second-section {
+  text-align: center;
+}
+
+.title-third-section {
   background-color: red;
   color: #ffffff;
   display: inline-block;
@@ -60,7 +68,7 @@ body {
   font-weight: bold;
 }
 
-.second-section {
+.third-section {
   text-align: center;
   background-color: #f4f4f4;
 }
