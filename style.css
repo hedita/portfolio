@@ -79,23 +79,20 @@ body {
 }
 
 .project-list-item {
-  border: 2px solid #000000;
 }
 
 .feature {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 .title-feature {
   text-align: center;
-  border: 2px solid #000000;
+  color: red;
 }
 
 .content-feature {
   text-align: center;
-  border: 2px solid #000000;
 }
 
 .link-list {
@@ -106,7 +103,7 @@ body {
 }
 
 .link-list-item {
-  border: 2px solid #000000;
+  background-color: #fddfe7;
 }
 
 li {
@@ -200,6 +197,11 @@ li {
 
 .for-more-item {
   border: 1px solid #000000;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 /* Tablets */
