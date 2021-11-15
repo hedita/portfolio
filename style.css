@@ -79,6 +79,11 @@ body {
 }
 
 .project-list-item {
+  min-width: 25%;
+}
+
+.title-app-feature {
+  color: red;
 }
 
 .feature {
@@ -103,7 +108,7 @@ body {
 }
 
 .link-list-item {
-  background-color: #fddfe7;
+  background: #fddfe7;
 }
 
 li {
@@ -117,22 +122,20 @@ li {
 
 .project-list-title {
   text-align: center;
-  border: 1px solid red;
+  color: red;
 }
 
 .app-feature {
   text-align: center;
-  border: 1px solid #000000;
 }
 
 .app-list {
   display: flex;
   justify-content: space-around;
-  border: 1px solid #000000;
 }
 
 .app-list-item {
-  border: 1px solid red;
+  background: #fddfe7;
 }
 
 .fourth-section {
@@ -221,6 +224,5 @@ li {
   }
 
   .project-list-item {
-    flex: 25%;
   }
 }
