@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6,23 +7,21 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .content {
   flex: 1 0 auto;
 }
 
-.site-header {
-  background-color: #F2B4F4;
-}
-
-.site-main {
-  background-color: #F4F4F4;
+.header-title {
+  text-align: center;
+  vertical-align: top;
 }
 
 .site-footer {
-  background-color: #072BCE;
-  color: #FFFFFF;
+  background-color: #072bce;
+  color: #ffffff;
   text-align: center;
   flex-shrink: 0;
 }
@@ -32,13 +31,46 @@ body {
   margin: 0 auto;
 }
 
+.text-header {
+  text-align: center;
+}
+
 .first-section {
-  background-color: #F4F4F4;
-  border: 4px solid red;
+  text-align: center;
+}
+
+.title-second-section {
+  background-color: red;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.first-text {
+  background-color: #f4f4f4;
+  padding: 123px 410px 109px 410px;
+}
+
+.text-second-section {
+  padding: 123px 410px 120px 410px;
 }
 
 .second-section {
-  border: 4px solid red;
+  text-align: center;
+}
+
+.title-third-section {
+  background-color: red;
+  color: #ffffff;
+  display: inline-block;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+.third-section {
+  text-align: center;
+  background-color: #f4f4f4;
 }
 
 .project-list {
@@ -47,34 +79,35 @@ body {
 }
 
 .project-list-item {
-  border: 2px solid #000000;
+}
+
+.title-app-feature {
+  color: red;
+  text-align: start;
 }
 
 .feature {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 .title-feature {
-  text-align: center;
-  border: 2px solid #000000;
+  text-align: start;
+  color: red;
 }
 
 .content-feature {
   text-align: center;
-  border: 2px solid #000000;
 }
 
 .link-list {
   display: flex;
-  justify-content: space-around;
   padding: 0;
-  gap: 25px;
+  gap: 10px;
 }
 
 .link-list-item {
-  border: 2px solid #000000;
+  background: #fddfe7;
 }
 
 li {
@@ -88,22 +121,22 @@ li {
 
 .project-list-title {
   text-align: center;
-  border: 1px solid red;
+  color: red;
 }
 
 .app-feature {
-  text-align: center;
-  border: 1px solid #000000;
+  text-align: start;
 }
 
 .app-list {
   display: flex;
-  justify-content: space-around;
-  border: 1px solid #000000;
+  justify-content: start;
+  gap: 15px;
+  padding: 0;
 }
 
 .app-list-item {
-  border: 1px solid red;
+  background: #fddfe7;
 }
 
 .fourth-section {
@@ -170,23 +203,27 @@ li {
   border: 1px solid #000000;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 /* Tablets */
-@media(max-width: 900px) and (min-width: 600px) {
+@media (max-width: 900px) and (min-width: 600px) {
   .project-list {
     display: flex;
   }
 
   .project-list-item {
     flex: 50%;
-  } 
+  }
 }
 /* Desktop */
-@media(min-width: 901px) {
- .project-list {
+@media (min-width: 901px) {
+  .project-list {
     display: flex;
   }
 
   .project-list-item {
-    flex: 25%;
   }
 }
