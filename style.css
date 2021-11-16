@@ -27,7 +27,7 @@ body {
 }
 
 .site-wrapper {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -79,11 +79,11 @@ body {
 }
 
 .project-list-item {
-  min-width: 25%;
 }
 
 .title-app-feature {
   color: red;
+  text-align: start;
 }
 
 .feature {
@@ -92,7 +92,7 @@ body {
 }
 
 .title-feature {
-  text-align: center;
+  text-align: start;
   color: red;
 }
 
@@ -126,12 +126,14 @@ li {
 }
 
 .app-feature {
-  text-align: center;
+  text-align: start;
 }
 
 .app-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
+  gap: 15px;
+  padding: 0;
 }
 
 .app-list-item {
