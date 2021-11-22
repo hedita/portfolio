@@ -1,0 +1,15 @@
+.second-section {
+  text-align: center;
+}
+
+.title-second-section {
+  background-color: red;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.text-second-section {
+  padding: 123px 410px 120px 410px;
+}

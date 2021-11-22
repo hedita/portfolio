@@ -1,0 +1,17 @@
+.seventh-section {
+  border: 2px solid #000000;
+}
+
+.seventh-section-header {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.for-more {
+  display: flex;
+  justify-content: space-around;
+}
+
+.for-more-item {
+  border: 1px solid #000000;
+}

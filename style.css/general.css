@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.site-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
