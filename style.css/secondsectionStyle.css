@@ -7,9 +7,10 @@
   color: #ffffff;
   display: inline-block;
   font-weight: bold;
-  padding: 12px;
+  padding: 16px;
+  margin-top: 40;
 }
 
 .text-second-section {
-  padding: 123px 410px 120px 410px;
+  padding: 48px 24px 40px 24px;
 }
