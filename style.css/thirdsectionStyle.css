@@ -7,9 +7,10 @@
   background-color: red;
   color: #ffffff;
   display: inline-block;
-  padding: 2px 8px;
+  padding: 8px;
   font-weight: bold;
   margin-bottom: 64px;
+  margin-top: 40px;
 }
 
 .project-list {
@@ -28,10 +29,13 @@
 .title-feature {
   text-align: start;
   color: red;
+  margin-top: 24px;
 }
 
 .content-feature {
-  text-align: center;
+  text-align: start;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .link-list {
@@ -42,6 +46,8 @@
 
 .link-list-item {
   background: #fddfe7;
+  padding: 2px 4px;
+  text-align: center;
 }
 
 .project-list-header {
