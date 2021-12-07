@@ -35,7 +35,7 @@
 .content-feature {
   text-align: start;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .link-list {
@@ -57,11 +57,16 @@
 
 .project-list-title {
   text-align: center;
+  font-weight: bold;
   color: red;
+  margin-bottom: 32px;
+  margin-top: 64px;
 }
 
 .app-feature {
   text-align: start;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .app-list {
@@ -78,6 +83,7 @@
 .title-app-feature {
   color: red;
   text-align: start;
+  margin-top: 32px;
 }
 
 /* Tablets */
