@@ -1,5 +1,6 @@
 .second-section {
   text-align: center;
+  padding: 56px 56px;
 }
 
 .title-second-section {
@@ -12,6 +13,6 @@
 }
 
 .text-second-section {
-  padding: 48px 24px 40px 24px;
+  padding-top: 56px;
   line-height: 25px;
 }
