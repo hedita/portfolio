@@ -3,7 +3,13 @@
 }
 
 .first-text {
-  background-color: #f4f4f4;
   padding: 48px 24px 40px 24px;
   line-height: 25px;
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  .first-section {
+    background-color: #f4f4f4;
+  }
 }
