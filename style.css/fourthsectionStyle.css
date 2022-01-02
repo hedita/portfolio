@@ -1,13 +1,30 @@
 .fourth-section {
-  border: 1px solid red;
+  text-align: center;
 }
 
 .title-toughts {
-  text-align: center;
-  border: 1px solid #000000;
+  background-color: red;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .about-thoughts {
-  text-align: center;
-  border: 1px solid #000000;
+  text-align: start;
+  margin-top: 32px;
+}
+
+.date {
+  color: red;
+  text-align: start;
+  margin-top: 32px;
+}
+
+.title {
+  text-align: start;
+  font-weight: bold;
+  margin-top: 8px;
 }
