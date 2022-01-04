@@ -15,11 +15,12 @@
 .project-list {
   padding: 0;
   gap: 25px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  box-sizing: border-box;
 }
 
 .project-list-item {
+  flex: 50%;
 }
 
 .feature {
@@ -95,7 +96,6 @@
 /* Tablets */
 @media (max-width: 900px) and (min-width: 600px) {
   .project-list {
-    display: flex;
   }
 
   .project-list-item {
@@ -104,11 +104,7 @@
 /* Desktop */
 @media (min-width: 901px) {
   .project-list {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .project-list-item {
+    grid-template-columns: 1fr 1fr;
   }
 
   .third-section {
