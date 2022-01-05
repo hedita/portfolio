@@ -4,3 +4,16 @@
   text-align: center;
   flex-shrink: 0;
 }
+
+.footer-content {
+  margin-bottom: 64px;
+}
+
+.footer-header {
+  font-weight: bold;
+  margin: 64px 64px;
+}
+
+.footer-text-item {
+  margin-top: 8px;
+}
