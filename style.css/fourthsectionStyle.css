@@ -3,7 +3,7 @@
 }
 
 .title-toughts {
-  background-color: red;
+  background-color: #fa382f;
   color: #ffffff;
   display: inline-block;
   font-weight: bold;
@@ -18,7 +18,7 @@
 }
 
 .date {
-  color: red;
+  color: #fa382f;
   text-align: start;
   margin-top: 32px;
 }
