@@ -3,7 +3,7 @@
 }
 
 .title-third-section {
-  background-color: red;
+  background-color: #fa382f;
   color: #ffffff;
   display: inline-block;
   padding: 8px;
@@ -30,7 +30,7 @@
 
 .title-feature {
   text-align: start;
-  color: red;
+  color: #fa382f;
   margin-top: 24px;
   font-weight: bold;
 }
@@ -50,22 +50,22 @@
 
 .link-list-item {
   background: #fddfe7;
-  padding: 2px 4px;
+  padding: 4px 16px;
   text-align: center;
 }
 
 .project-list-header {
   text-align: center;
-  border: 1px solid red;
+  border: 1px solid #fa382f;
   font-weight: bold;
 }
 
 .project-list-title {
   text-align: center;
   font-weight: bold;
-  color: red;
+  color: #fa382f;
   margin-bottom: 32px;
-  margin-top: 64px;
+  margin-top: 80px;
 }
 
 .app-feature {
@@ -84,10 +84,11 @@
 
 .app-list-item {
   background: #fddfe7;
+  padding: 4px 16px;
 }
 
 .title-app-feature {
-  color: red;
+  color: #fa382f;
   text-align: start;
   margin-top: 32px;
   font-weight: bold;
@@ -95,11 +96,6 @@
 
 /* Tablets */
 @media (max-width: 900px) and (min-width: 600px) {
-  .project-list {
-  }
-
-  .project-list-item {
-  }
 }
 /* Desktop */
 @media (min-width: 901px) {
