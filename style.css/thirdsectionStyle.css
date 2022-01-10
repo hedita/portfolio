@@ -33,6 +33,7 @@
   color: #fa382f;
   margin-top: 24px;
   font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .content-feature {
@@ -40,6 +41,7 @@
   margin-top: 16px;
   margin-bottom: 8px;
   line-height: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .link-list {
@@ -58,6 +60,7 @@
   text-align: center;
   border: 1px solid #fa382f;
   font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .project-list-title {
@@ -66,6 +69,7 @@
   color: #fa382f;
   margin-bottom: 32px;
   margin-top: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .app-feature {
