@@ -7,6 +7,10 @@
   line-height: 25px;
 }
 
+.header-title {
+  line-height: 25px;
+}
+
 /* Desktop */
 @media (min-width: 901px) {
   .first-section {
