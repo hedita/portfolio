@@ -15,9 +15,11 @@
 .for-more {
   display: flex;
   justify-content: space-around;
+  gap: 16px;
+  margin-bottom: 32px;
 }
 
 .for-more-item {
   color: #fa382f;
-  margin: 40px 40px;
+  margin-top: 24px;
 }
