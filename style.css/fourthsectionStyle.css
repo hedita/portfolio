@@ -16,6 +16,7 @@
   text-align: start;
   margin-top: 32px;
   line-height: 25px;
+  padding-bottom: 16px;
 }
 
 .date {
@@ -28,4 +29,12 @@
   text-align: start;
   font-weight: bold;
   margin-top: 8px;
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  .thoughts {
+    display: flex;
+    gap: 32px;
+  }
 }
