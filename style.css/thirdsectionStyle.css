@@ -88,15 +88,15 @@
   color: #fa382f;
   text-align: start;
   font-weight: bold;
-  margin-top: 32px;
+  padding-bottom: 8px;
+  padding-top: 8px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .app-feature {
   text-align: start;
-  margin-top: 16px;
-  margin-bottom: 8px;
-  line-height: 25px;
+  padding-bottom: 8px;
+  padding-top: 8px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
@@ -115,13 +115,10 @@
 
   .features {
     display: flex;
-  }
-
-  .title-app-feature {
-    margin: 16px 0 8px 8px;
+    margin-top: 32px;
   }
 
   .app-feature {
-    margin: 16px 0 8px 8px;
+    padding-bottom: 8px;
   }
 }
