@@ -1,0 +1,124 @@
+.third-section {
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.title-third-section {
+  background-color: #fa382f;
+  color: #ffffff;
+  display: inline-block;
+  padding: 8px;
+  font-weight: bold;
+  margin-bottom: 64px;
+  margin-top: 40px;
+}
+
+.project-list {
+  padding: 0;
+  gap: 25px;
+  display: grid;
+  box-sizing: border-box;
+}
+
+.project-list-item {
+  flex: 50%;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-feature {
+  text-align: start;
+  color: #fa382f;
+  margin-top: 24px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.content-feature {
+  text-align: start;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  line-height: 25px;
+}
+
+.link-list {
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+.link-list-item {
+  background: #fddfe7;
+  padding: 4px 16px;
+  text-align: center;
+}
+
+.project-list-header {
+  text-align: center;
+  border: 1px solid #fa382f;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.project-list-title {
+  text-align: center;
+  font-weight: bold;
+  color: #fa382f;
+  margin-bottom: 32px;
+  margin-top: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.app-list {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  padding: 0;
+}
+
+.app-list-item {
+  background: #fddfe7;
+  padding: 4px 16px;
+}
+
+.title-app-feature {
+  color: #fa382f;
+  text-align: start;
+  font-weight: bold;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.app-feature {
+  text-align: start;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Tablets */
+@media (max-width: 900px) and (min-width: 600px) {
+}
+/* Desktop */
+@media (min-width: 901px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .third-section {
+    background-color: #f4f4f4;
+  }
+
+  .features {
+    display: flex;
+    margin-top: 32px;
+  }
+
+  .app-feature {
+    padding-bottom: 8px;
+  }
+}

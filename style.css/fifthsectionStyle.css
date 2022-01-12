@@ -1,0 +1,14 @@
+.fifth-section-header {
+  text-align: center;
+  color: #fa382f;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.fifth-section-text {
+  text-align: start;
+  margin-top: 24px;
+  display: block;
+  margin-bottom: 32px;
+}

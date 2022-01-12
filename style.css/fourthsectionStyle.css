@@ -1,0 +1,40 @@
+.fourth-section {
+  text-align: center;
+}
+
+.title-toughts {
+  background-color: #fa382f;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-thoughts {
+  text-align: start;
+  margin-top: 32px;
+  line-height: 25px;
+  padding-bottom: 16px;
+}
+
+.date {
+  color: #fa382f;
+  text-align: start;
+  margin-top: 32px;
+}
+
+.title {
+  text-align: start;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  .thoughts {
+    display: flex;
+    gap: 32px;
+  }
+}
