@@ -1,0 +1,35 @@
+.sixth-section {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.sixth-section-header {
+  text-align: center;
+  background-color: #fa382f;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px;
+  margin-top: 40px;
+}
+
+.skills {
+  padding: 0;
+  margin: 24px 40px;
+}
+
+.skills-item {
+  margin-top: 8px;
+}
+
+.skills3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  .skills3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

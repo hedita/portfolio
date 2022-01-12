@@ -1,0 +1,25 @@
+.seventh-section {
+  text-align: center;
+}
+
+.seventh-section-header {
+  text-align: center;
+  background-color: #fa382f;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px;
+  margin-top: 40px;
+}
+
+.for-more {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.for-more-item {
+  color: #fa382f;
+  margin-top: 24px;
+}

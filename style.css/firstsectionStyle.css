@@ -1,0 +1,19 @@
+.first-section {
+  text-align: center;
+}
+
+.first-text {
+  padding: 48px 24px 40px 24px;
+  line-height: 25px;
+}
+
+.header-title {
+  line-height: 25px;
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  .first-section {
+    background-color: #f4f4f4;
+  }
+}

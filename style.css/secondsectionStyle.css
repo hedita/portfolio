@@ -1,0 +1,18 @@
+.second-section {
+  text-align: center;
+  padding: 56px 56px;
+}
+
+.title-second-section {
+  background-color: #fa382f;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.text-second-section {
+  padding-top: 56px;
+  line-height: 25px;
+}

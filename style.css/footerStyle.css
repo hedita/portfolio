@@ -1,0 +1,18 @@
+.site-footer {
+  background-color: #072bce;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-content {
+  margin-bottom: 64px;
+}
+
+.footer-header {
+  font-weight: bold;
+  margin: 64px 64px;
+}
+
+.footer-text-item {
+  margin-top: 8px;
+}

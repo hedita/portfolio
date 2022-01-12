@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  line-height: 29px;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.site-wrapper {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.red {
+  color: #fa382f;
+}
